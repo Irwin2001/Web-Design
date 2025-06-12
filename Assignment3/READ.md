@@ -1,0 +1,2 @@
+This assigment was pretty fun when I got to experiment with the box-shadow and text-shadows. I enjoy trying the new css and see what I can do. 
+I did ran into a few problem. Mostly the gallery bit and wonder why it didn't work. The picture were way to big and I kept changing the css to make it work. I did get frustrated. then when I overlook my other css link and notice it was pathing issue. I type style.css and not style/style.css. I had a tiring day and made a small mistake, but got it finished and working.
