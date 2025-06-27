@@ -1,0 +1,65 @@
+@media (max-width: 600px) {
+}
+
+@media (min-width: 600px) and (max-width: 1024px) {
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 10px;
+    padding: 10px;
+    margin:auto;
+    background-color: #f9f9f9; 
+}
+
+.item {
+    background-color: #e0e0e0;
+    aspect-ratio: 1 / 1;
+    display: flex;
+    justify-content: center;
+}
+
+.item img {
+  padding: 0;
+  width: 100%;
+  height: auto;
+  display: block; 
+}
+
+.item p {
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+h1, p, div {
+    text-align: center;
+}
+
+a:focus,
+button:focus,
+input:focus {
+  outline: 2px solid #4a90e2;
+  outline-offset: 2px;
+}
+
+.hover-img {
+  transition: transfrom 0.3 ease;
+  transform-style: preserve-3d;
+  will-change: transform;
+}
+
+.hover-img:hover {
+    transform: perspective(300px) rotateX(3deg) rotateY(3deg) scale(1.1);
+}
+
+.club-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 20px;
+  max-width: 700px;
+  margin: 30px auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
